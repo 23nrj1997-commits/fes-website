@@ -520,10 +520,12 @@ text__side {
 
 .teal__btn {
   background: linear-gradient(90deg, #38b2ac, #81e6d9);
+  text-decoration: none;
 }
 
 .coral__btn {
   background: linear-gradient(90deg, #f56565, #feb2b2);
+  text-decoration: none;
 }
 
 .plan--featured {
@@ -545,7 +547,72 @@ text__side {
 .white__btn {
   background: white;
   color: #6415ff;
+  text-decoration: none;
 }
 
 /* Testimonials */
 
+.testimonials h2 {
+  margin-bottom: 18px;
+}
+
+.testimonials__para {
+  line-height: 1.7;
+}
+
+.testimonials__row {
+  align-items: center;
+}
+
+.testimonial__img {
+  width: 100%;
+}
+
+
+.stars {
+  color: #f6ad55;
+  font-size: 22px;
+  letter-spacing: 4px;
+  margin: 24px 0;
+}
+
+.testimonial__title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.testimonial__person {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 32px;
+}
+
+.testimonial__person img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial__person p {
+  color: #7c8ba1;
+}
+
+.arrows {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.arrows button {
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  color: #6415ff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* CTA section */
