@@ -273,10 +273,6 @@ text__side {
   gap: 72px;
 }
 
-/*.img__side {
-  position: relative;
-} */
-
 .quality__img {
   max-width: calc(100% - 50);
   height: 400px;
@@ -327,7 +323,7 @@ text__side {
 }
 
 .laptop__image img {
-  max-width: 520px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -357,3 +353,73 @@ text__side {
   color: #7c8ba1;
   line-height: 1.6;
 }
+
+/* Value Section */
+
+.values__row {
+  width: 100%;
+  display: flex;
+}
+
+.values__items {
+  display: flex;
+  gap: 36px;
+  margin: 32px 0;
+}
+
+.value {
+  width: 50%;
+}
+
+.value__img {
+  width: 100%;
+}
+
+.value__btn {
+  max-width: 200px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #6415ff;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 24px;
+  border-radius: 50px;
+}
+
+.value__title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.value__icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #243e63;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+.green {
+  background: #9ae6b4;
+}
+
+.red {
+  background: #feb2b2;
+}
+
+.value p {
+  color: #7c8ba1;
+  line-height: 1.7;
+}
+
+.value__p {
+  margin-top: 8px;
+  line-height: 1.7;
+}
+
+/* Pricing */
