@@ -154,6 +154,30 @@ nav {
   transform: translateY(-8.5px) rotate(-45deg);
 }
 
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 378px;
+  margin: 24px 16px;
+  padding: 32px;
+  background-color: #fff;
+  border: 1px solid rgb(229, 231, 235);
+  border-radius: 8px;
+  z-index: 4;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateX(300%);
+  transition: all 300ms ease;
+}
+
+.menu--open .modal {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0);
+}
+
 /* Header */
 
 .header__container {
@@ -845,6 +869,78 @@ footer::after {
 }
 
 /* Media */
+
+@media (max-width: 1024px){
+  .container {
+    display: flex;
+    padding: 0 24px;
+  }
+
+  .nav__links {
+    margin-right: 24px;
+  }
+
+  .nav__link {
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .header__h2 {
+    font-size: 38px;
+  }
+
+  .quality__row {
+    display: flex;
+    padding: 0 24px;;
+  }
+
+  .quality h2 {
+    font-size: 38px;
+  }
+
+  .quality h3 {
+    font-size: 16px;
+  }
+
+  .quality__img--wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 50%;
+  }
+
+  .steps__layout {
+    display: flex;
+    padding: 0 24px;
+  }
+
+  .steps h2 {
+    font-size: 38px;
+  }
+
+  .values__row {
+    display: flex;
+    padding: 0 24px;
+  }
+
+  .values h2 {
+    font-size: 38px;
+  }
+
+  .pricing__row {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+  }
+
+  .testimonials__row {
+    display: flex;
+    padding: 0 24px;
+  }
+
+  .cta__buttons {
+    text-align: center;
+  }
+}
 
 @media (max-width: 768px) {
   .container {
