@@ -1197,4 +1197,127 @@ footer::after {
   .features__grid {
     flex-direction: column;
   }
+
+  .quality h2 {
+    font-size: 30px;
+  }
+
+  .quality__img--wrapper {
+    display: flex;
+    width: 100%;
+    padding 0;
+  }
+
+  .quality__img {
+    height: 300px;
+  }
+
+  .steps h2 {
+    font-size: 30px;
+  }
+
+  .step__layout {
+    width:100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .values h2 {
+    font-size: 30px;
+  }
+
+  .values__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing h2 {
+    font-size: 30px;
+  }
+
+  .pricing__header--para {
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .pricing__row {
+    display: flex;
+  }
+
+  .plans {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plan {
+    width: 70%;
+  }
+
+  .testimonials h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .testimonials .eyebrow {
+    text-align: center
+  }
+
+  .cta__box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .cta__buttons {
+    flex-direction: column;
+  }
+
+  .cta__box::before {
+    display: none;
+  }
+
+  .cta__box::after {
+    display: none;
+  }
+
+  .footer__grid {
+    width: auto;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .footer__column {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer__column h3 {
+    font-size: 14px;
+  }
+
+  .footer__column a {
+    font-size: 10px;
+  }
+
+  .footer__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__brand {
+    margin-bottom: 20px;
+  }
+
+  .socials {
+    margin-top: 20px;
+  }
 }
